@@ -23,7 +23,7 @@ header{
 .parent{
     display: flex;
     justify-content: space-between;
-    align-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 .logo a,i {
@@ -37,6 +37,7 @@ nav ul{
 nav ul li a{
     color: white;
     line-height: 20px;
+    margin-left: 30px;
 }
 .content{
     color: white;
@@ -59,16 +60,22 @@ nav ul li a{
 }
 .section-blog {
     display: flex;
-    margin-top: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
 .blog-inner img{
     height: 500px;
-    width: 500px;
+    width:100%;
     margin-right: 80px;
-    background-size: cover;
+    object-fit: cover;
 }
 .blog-inner{
-    padding-left: 40px;
+    width: 50%;
+    flex-basis: 50%;
+    flex-grow: 1;
+}
+.blog-inner:last-child{
+    padding-left:100px;
 }
 .blog-inner h2{
     color: black;
@@ -88,5 +95,88 @@ nav ul li a{
     color: aquamarine;
     margin-right: 20px;
     font-size: 30px;
+}
+.section-two{
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background-color: rgb(204, 196, 196);
+}
+.icon-group{
+    display: flex;
+    flex-wrap: wrap;
+}
+.icon-card{
+    width:calc(100% / 3);
+    text-align: center;
+    
+}
+.icon{
+    background-color: white;
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+.icon i{
+    font-size: 60px;
+    color: rgb(75, 114, 75);
+}
+.title{
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 40px;
+}
+.icon-card h3{
+    font-size: 20px;
+}
+
+.icon-card p{
+    padding: 30px 30px 50px;
+}
+.course{
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.cards{
+    width: calc(100% / 3);
+    background-color: rgb(219, 211, 211);
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+.card-img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.card-content{
+    padding: 15px 20px;
+    border-bottom: 1px solid rgb(150, 132, 132);
+}
+.card-blog p{
+    text-align: center;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(110, 97, 97);
+    margin: 0 40px;
+}
+.card-blog button{
+    display: block;
+    width:calc(100% - 40px);
+    color: white;
+    padding: 10px 0px;
+    margin: 30px 20px;
+    background-color: rgb(39, 168, 39);
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
 }
 
