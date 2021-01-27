@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+.wrapper{
+    width: 100%;
+    max-width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}
+header{
+    background-image: url(../img/bgc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 20px;
+}
+.logo a,i {
+    color: white;
+    font-size: 40px;
+}
+nav ul{
+    display: flex;
+    
+}
+nav ul li a{
+    color: white;
+    line-height: 20px;
+}
+.content{
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+}
+.content h1{
+    font-size: 60px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+.content button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    background-color: rgb(25, 53, 25);
+}
+.section-blog {
+    display: flex;
+    margin-top: 50px;
+}
+.blog-inner img{
+    height: 500px;
+    width: 500px;
+    margin-right: 80px;
+    background-size: cover;
+}
+.blog-inner{
+    padding-left: 40px;
+}
+.blog-inner h2{
+    color: black;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-bottom: 15px;
+}
+.blog-inner p{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+.blog-inner h3{
+    padding-bottom: 30px;
+}
+.blog-inner h3 i{
+    color: aquamarine;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
