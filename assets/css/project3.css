@@ -7,6 +7,9 @@
     list-style: none;
     font-family: 'Source Sans Pro', sans-serif;;
 }
+img{
+    width: 100%;
+}
 .wrapper{
     width: 100%;
     max-width: 1170px;
@@ -128,8 +131,9 @@ nav ul li a{
 }
 .title{
     text-align: center;
-    padding-bottom: 70px;
-    font-size: 40px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    font-size: 35px;
 }
 .icon-card h3{
     font-size: 20px;
@@ -179,4 +183,49 @@ nav ul li a{
     outline: none;
     border-radius: 50px;
 }
+.teachers-blog{
+    background-color: rgb(231, 224, 224);
+}
+.profiles{
+    display: flex;
+    flex-wrap: wrap;
+}
+.teachers-profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3);
+}
+.profile-img img{
+    border-radius: 50%;
+    width:100px;
+    height: 100px;
+    margin: 30px;
+    object-fit: cover;
+}
+.profile-content h2{
+    font-size: 30px;
+}
+.profile-content p{
+    font-weight: 600;
+    font-size: 20px;
+    color: rgb(82, 223, 26);
+}
 
+
+.programs{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.program-cards{
+    width: calc(100% / 3);
+    border: 1px solid black;
+    flex-grow: 1;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.program-img img{
+    width: 100%;
+}
