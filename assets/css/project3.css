@@ -1,58 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     box-sizing: border-box;
     list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;;
+    font-family: 'Source Sans Pro', sans-serif;
+    ;
 }
-img{
+
+img {
     width: 100%;
 }
-.wrapper{
+
+.wrapper {
     width: 100%;
     max-width: 1170px;
     margin-right: auto;
     margin-left: auto;
 }
-header{
+
+header {
     background-image: url(../img/bgc.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     width: 100%;
 }
-.parent{
+
+.parent {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-.logo a,i {
+
+.logo a,
+i {
     color: white;
     font-size: 40px;
 }
-nav ul{
+
+nav ul {
     display: flex;
-    
+
 }
-nav ul li a{
+
+nav ul li a {
     color: white;
     line-height: 20px;
     margin-left: 30px;
 }
-.content{
+
+.content {
     color: white;
     text-align: center;
     padding-top: 180px;
 }
-.content h1{
+
+.content h1 {
     font-size: 60px;
     padding-bottom: 15px;
     text-transform: capitalize;
 }
-.content button{
+
+.content button {
     margin-top: 30px;
     padding: 10px 30px;
     border-radius: 50px;
@@ -61,62 +74,74 @@ nav ul li a{
     font-size: 16px;
     background-color: rgb(25, 53, 25);
 }
+
 .section-blog {
     display: flex;
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.blog-inner img{
+
+.blog-inner img {
     height: 500px;
-    width:100%;
+    width: 100%;
     margin-right: 80px;
     object-fit: cover;
 }
-.blog-inner{
+
+.blog-inner {
     width: 50%;
     flex-basis: 50%;
     flex-grow: 1;
 }
-.blog-inner:last-child{
-    padding-left:100px;
+
+.blog-inner:last-child {
+    padding-left: 100px;
 }
-.blog-inner h2{
+
+.blog-inner h2 {
     color: black;
     font-size: 30px;
     margin-top: 45px;
     margin-bottom: 15px;
 }
-.blog-inner p{
+
+.blog-inner p {
     color: black;
     font-size: 20px;
     margin-bottom: 45px;
 }
-.blog-inner h3{
+
+.blog-inner h3 {
     padding-bottom: 30px;
 }
-.blog-inner h3 i{
+
+.blog-inner h3 i {
     color: aquamarine;
     margin-right: 20px;
     font-size: 30px;
 }
-.section-two{
-   padding-top: 30px;
-   padding-bottom: 30px;
-   background-color: rgb(204, 196, 196);
+
+.section-two {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(204, 196, 196);
 }
-.icon-group{
+
+.icon-group {
     display: flex;
     flex-wrap: wrap;
 }
-.icon-card{
-    width:calc(100% / 3);
+
+.icon-card {
+    width: calc(100% / 3);
     text-align: center;
-    
+
 }
-.icon{
+
+.icon {
     background-color: white;
     border-radius: 50%;
-    width:150px;
+    width: 150px;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -125,29 +150,34 @@ nav ul li a{
     margin-right: auto;
     margin-bottom: 30px;
 }
-.icon i{
+
+.icon i {
     font-size: 60px;
     color: rgb(75, 114, 75);
 }
-.title{
+
+.title {
     text-align: center;
     padding-bottom: 40px;
     padding-top: 30px;
     font-size: 35px;
 }
-.icon-card h3{
+
+.icon-card h3 {
     font-size: 20px;
 }
 
-.icon-card p{
+.icon-card p {
     padding: 30px 30px 50px;
 }
-.course{
+
+.course {
     display: flex;
     margin-left: -15px;
     margin-right: -15px;
 }
-.cards{
+
+.cards {
     width: calc(100% / 3);
     background-color: rgb(219, 211, 211);
     flex-grow: 1;
@@ -155,25 +185,29 @@ nav ul li a{
     margin-right: 15px;
 
 }
-.card-img img{
+
+.card-img img {
     width: 100%;
     height: 300px;
     object-fit: cover;
 }
-.card-content{
+
+.card-content {
     padding: 15px 20px;
     border-bottom: 1px solid rgb(150, 132, 132);
 }
-.card-blog p{
+
+.card-blog p {
     text-align: center;
     padding: 20px 30px;
     font-size: 20px;
     border-bottom: 1px solid rgb(110, 97, 97);
     margin: 0 40px;
 }
-.card-blog button{
+
+.card-blog button {
     display: block;
-    width:calc(100% - 40px);
+    width: calc(100% - 40px);
     color: white;
     padding: 10px 0px;
     margin: 30px 20px;
@@ -183,101 +217,131 @@ nav ul li a{
     outline: none;
     border-radius: 50px;
 }
-.teachers-blog{
+
+/* <!--4-start--> */
+
+.teachers-blog {
     background-color: rgb(231, 224, 224);
 }
-.profiles{
+
+.profiles {
     display: flex;
     flex-wrap: wrap;
 }
-.teachers-profile{
+
+.teachers-profile {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: calc(100% / 3);
 }
-.profile-img img{
+
+.profile-img img {
     border-radius: 50%;
-    width:100px;
+    width: 100px;
     height: 100px;
     margin: 30px;
     object-fit: cover;
 }
-.profile-content h2{
+
+.profile-content h2 {
     font-size: 30px;
 }
-.profile-content p{
+
+.profile-content p {
     font-weight: 600;
     font-size: 20px;
     color: rgb(82, 223, 26);
 }
 
-/* 
-.programs{
+/* <!--5-start--> */
+
+.program-section {
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.programs {
     display: flex;
     flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
+    padding-left: -15px;
+    padding-right: -15px;
 }
-.program-cards{
+
+.program-cards {
     width: calc(100% / 3);
-    border: 1px solid black;
     flex-grow: 1;
-    margin-left: 15px;
-    margin-right: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-.program-img img{
-    width: 100%;
-} */
 
-.client-section{
-    background-color: rgb(226, 211, 211);
-    padding-bottom: 30px;
-}
-.clients{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.client-img img{
-    border-radius: 50%;
-    width:100px;
-    height: 100px;
-    margin: 30px;
-    object-fit: cover;
-}
-.client-content p, h3{
-    text-align: center;
-}
-.client-content h3{
-    margin-top: 20px;
-    font-size: 30px;
-}
-.section-group{
-    padding-bottom: 30px;
-}
-.groups{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -15px;
-    margin-right: -15px;
-}
-.card-groups{
-    width: calc(100% / 6);
-    border: 1px solid yellow;
-    margin-left: 15px;
-    margin-right: 15px;
-
-}
-.group-content{
-    font-size: 15px;
-}
-.group-img img{
+.program-img img {
     width: 100%;
     height: 200px;
     object-fit: cover;
 }
-.btn{
+
+/* <!--6-start--> */
+
+.client-section {
+    background-color: rgb(226, 211, 211);
+    padding-bottom: 30px;
+}
+
+.clients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.client-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 30px;
+    object-fit: cover;
+}
+
+.client-content p,
+h3 {
+    text-align: center;
+}
+
+.client-content h3 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+/* <!--7-start--> */
+
+.section-group {
+    padding-bottom: 30px;
+}
+
+.groups {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: -15px;
+    padding-right: -15px;
+}
+
+.card-groups {
+    width: calc(100% / 4);
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.group-content {
+    font-size: 15px;
+}
+
+.group-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn {
     padding: 10px 30px;
     color: white;
     background-color: rgb(30, 110, 30);
@@ -285,5 +349,97 @@ nav ul li a{
     font-size: 20px;
     border: none;
     outline: none;
-    
+    margin-top: 20px;
+    margin-bottom: 70px;
+    margin-left: 500px;
+}
+/* <!--8-start--> */
+.sign-up{
+    background-image: url(../img/sign.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+.sign-up-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.para{
+    color: white;
+    font-size: 40px;
+    padding: 80px 0 80px;
+
+}
+
+.cta-btn {
+    padding: 10px 30px;
+    color: white;
+    background-color: rgb(30, 110, 30);
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+/* <!--8-end--> */
+
+.contact-group{
+    display: flex;
+    margin-right: -15px;
+    margin-left: -15px;
+
+}
+.contact-blog{
+    width: calc(100% / 2);
+    height: 300px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    padding-bottom: 20px;
+   
+}
+textarea{
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+
+footer {
+    background-image: url(../img/bgc.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 100%;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo a,
+i {
+    color: white;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li a {
+    color: white;
+    line-height: 20px;
+    margin-left: 30px;
 }
